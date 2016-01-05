@@ -1,0 +1,44 @@
+{
+  "name": "rn-tools",
+  "version": "0.1.0",
+  "description": "tools for react-native",
+  "keywords": [
+    "react-native",
+    "tools"
+  ],
+  "homepage": "http://github.com/react-component/rn-tools",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:react-component/rn-tools.git"
+  },
+  "license": "ISC",
+  "bin": {
+    "rn-tools": "./bin/rn-tools.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-core": "^5.x",
+    "babel-eslint": "~4.1.6",
+    "babel-loader": "^5.x",
+    "colorful": "^2.1.0",
+    "commander": "^2.9.0",
+    "eslint": "~1.10.1",
+    "eslint-config-airbnb": "~1.0.0",
+    "eslint-plugin-react": "~3.10.0",
+    "extract-text-webpack-plugin": "~0.8.2",
+    "fs-extra": "^0.26.3",
+    "gh-history": "^1.0.0",
+    "gh-pages": "^0.3.0",
+    "glob": "~5.0.12",
+    "gulp": "^3.9.0",
+    "gulp-babel": "5.x",
+    "gulp-jsx2example": "~1.0.0",
+    "gulp-less": "2.0.1",
+    "match-require": "^1.1.1",
+    "shelljs": "0.3.x",
+    "through2": "^0.6.3",
+    "webpack": "^1.7.3"
+  }
+}
