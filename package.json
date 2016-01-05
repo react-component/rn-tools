@@ -11,12 +11,16 @@
     "type": "git",
     "url": "git@github.com:react-component/rn-tools.git"
   },
-  "license": "ISC",
+  "licenses": "MIT",
   "bin": {
-    "rn-tools": "./bin/rn-tools.js"
+    "rn-tools": "./bin/rn-tools.js",
+    "rn-tools-run": "./bin/rn-tools-run.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "git push origin",
+    "precommit": "npm run checkDep && npm run lint",
+    "checkDep": "node scripts/checkDep",
+    "lint": "eslint --ext .js,.jsx lib"
   },
   "dependencies": {
     "babel-core": "^5.x",
@@ -37,6 +41,7 @@
     "gulp-jsx2example": "~1.0.0",
     "gulp-less": "2.0.1",
     "match-require": "^1.1.1",
+    "minimist": "^1.2.0",
     "shelljs": "0.3.x",
     "through2": "^0.6.3",
     "webpack": "^1.7.3"
