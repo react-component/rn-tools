@@ -1,6 +1,6 @@
 {
   "name": "rn-tools",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "tools for react-native",
   "keywords": [
     "react-native",
@@ -33,16 +33,13 @@
     "gh-pages": "^0.3.0",
     "glob": "~5.0.12",
     "gulp": "^3.9.0",
-    "gulp-babel": "5.x",
     "gulp-insert": "^0.5.0",
     "gulp-jsx2example": "~1.0.0",
-    "gulp-less": "2.0.1",
     "internal-ip": "^1.1.0",
     "match-require": "^1.1.1",
     "minimist": "^1.2.0",
     "rn-packager": "~0.1.0",
     "shelljs": "0.3.x",
-    "through2": "^0.6.3",
-    "webpack": "^1.7.3"
+    "through2": "^0.6.3"
   }
 }
