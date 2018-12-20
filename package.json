@@ -36,7 +36,7 @@
     "gulp-insert": "^0.5.0",
     "gulp-jsx2example": "~1.0.0",
     "internal-ip": "^1.1.0",
-    "match-require": "^1.1.1",
+    "match-require": "^2.1.0",
     "minimist": "^1.2.0",
     "rn-packager": "~0.3.0",
     "shelljs": "0.3.x",
